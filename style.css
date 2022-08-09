@@ -6,17 +6,37 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: rgb(241, 190, 19);
 }
 
-section {
+.flxible-container {
     display: flex;
     margin-bottom: 100px;
 }
 
 .half-width {
     width: 50%;
+    padding padding-left: 2%;
+
+}
+
+.service-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.service-item {
+    box-shadow: 10px 10px 60px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
 }
 
 .link-button {
@@ -39,4 +59,22 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#gaspipe {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(14, 29, 230), rgb(111, 216, 230));
+
+    border-image-slice: 1;
+}
+
+#bathroom {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(247, 244, 77), rgb(231, 16, 238));
+
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
